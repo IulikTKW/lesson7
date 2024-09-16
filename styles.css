@@ -1,0 +1,107 @@
+.item {
+    padding: 12px;
+    border: 1px solid black; 
+    background: white;   
+    position: absolute; 
+}
+
+body {
+    margin: 0;
+}
+
+/* 
+.item1{
+    background-color: white;
+    width: 400px;
+   
+}
+
+.item2{
+    background-color: red;
+    width: 350px;
+   
+}
+
+.item3{
+    background-color: green;
+    width: 300px;
+   
+}
+
+.item4{
+    background-color: yellow;
+    width: 250px;
+   
+}
+
+.item5 {
+    background-color: brown;
+    width: 200px;
+    z-index: 999999;
+   
+} */
+
+.screen {
+    height: 400vh;
+}
+
+.spanElement {
+    display: inline-block;
+    margin-top: 60px;
+    padding-top: 60px;
+}
+
+/* .item2 {
+    display: none;
+    visibility: hidden;
+} */
+
+/* .container {
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
+
+    align-items: flex-end;
+} */
+
+
+/* .container {
+    display: flex; 
+    align-items: flex-end;
+    height: calc(100vh - 44px);
+}
+
+.row {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+} */
+
+
+.item1 {
+    top:0;
+    left: 0;
+}
+
+.item2 {
+    top:0;
+    right: 0;
+}
+
+.item3 {
+    bottom:0;
+    right: 0;
+}
+
+.item4 {
+    bottom:0;
+    left: 0;
+}
+
+
